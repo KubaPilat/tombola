@@ -1,0 +1,43 @@
+body {
+    background-image: url('background1.jpg');
+}
+
+div {
+    text-align: center;
+}
+
+input[type="number"] {
+    border: 2px solid #0f375a;
+    border-radius: 4px;
+    background-color: #CFF6FD;
+}
+
+#button {
+    border: 2px solid #0f375a;
+    border-radius: 4px;
+    background-color: #BBEAF1;
+}
+
+#bigNumberDisplay {
+    font-size: 110px;
+}
+
+.numbersTable {
+    font-size: 40px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #EAFCFE;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: solid 1px #0f375a;
+}
+
+td {
+    min-width: 100px;
+}
