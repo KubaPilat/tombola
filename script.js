@@ -1,4 +1,3 @@
-
 function oblicz() {
     const number = document.getElementById("drawnNumber").value;
     document.getElementById("bigNumberDisplay").innerHTML = number;
@@ -6,6 +5,7 @@ function oblicz() {
     document.getElementById(number).style.color  = "#F1FDFD";
 }
 
+const number = document.getElementById("drawnNumber").value;
 if (number === "" || number>=91 || number<=0) {
     document.getElementById("Error").innerHTML = "Błędne wpisanie liczby";
 }
